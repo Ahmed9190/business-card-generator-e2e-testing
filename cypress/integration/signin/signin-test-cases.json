@@ -1,0 +1,26 @@
+[
+  {
+    "TCn":"Test case 1",
+    "email":"",
+    "password":"Ahmed",
+    "expected":"include"
+  },
+  {
+    "TCn":"Test case 2",
+    "email":"",
+    "password":"Ahmed123#",
+    "expected":"include"
+  },
+  {
+    "TCn":"Test case 3",
+    "email":"ahmed.waleed919@outlook.com",
+    "password":"Ahmed",
+    "expected":"include"
+  },
+  {
+    "TCn":"Test case 4",
+    "email":"ahmed.waleed919@outlook.com",
+    "password":"Ahmed123#",
+    "expected":"not.include"
+  }
+]

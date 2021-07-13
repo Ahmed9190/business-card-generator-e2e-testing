@@ -1,0 +1,42 @@
+[
+  {
+    "TCn": "Test case 1",
+    "fname": "",
+    "lname": "",
+    "email": "",
+    "password": "Ahmed",
+    "expected": "include"
+  },
+  {
+    "TCn": "Test case 2",
+    "fname": "",
+    "lname": "",
+    "email": "",
+    "password": "Ahmed123#",
+    "expected": "include"
+  },
+  {
+    "TCn": "Test case 3",
+    "fname": "",
+    "lname": "",
+    "email": "ahmed.waleeed11@yahoo.com",
+    "password": "Ahmed",
+    "expected": "include"
+  },
+  {
+    "TCn": "Test case 4",
+    "fname": "",
+    "lname": "Waleed",
+    "email": "ahmed.waleeed11@yahoo.com",
+    "password": "Ahmed123#",
+    "expected": "include"
+  },
+  {
+    "TCn": "Test case 5",
+    "fname": "Ahmed",
+    "lname": "Waleed",
+    "email": "ahmed.waleeed11@yahoo.com",
+    "password": "Ahmed123 #",
+    "expected": "not.include"
+  }
+]
